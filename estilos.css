@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(31, 76, 160, 0.932);
+    width: 1300px;
+  }
+
+  /* Estilos para la tabla*/
+  h1{
+    color:rgb(192, 253, 255)
+  }
+  h2{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .grupo1{
+     font-size:11em;
+  }
+  #parrafo1{
+    color:rgb(240, 255, 155);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3rem;
+   }
+  th, td {
+    padding: 0.5rem;
+    text-align: left;
+    border: 1px solid #09002e;
+  }     
+  th {
+    background-color: #cfe2ff;
+  }
+  th, td {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+  /* Estilos para los vinculos */
+  a {
+    text-decoration: none;
+    color: #3bc3f8;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  section {
+  background: transparent;
+  margin: 0px 0;   
+  border: 5px ridge rgb(163, 250, 214);
+  padding: 0 10px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+  }
+
+  header, nav{
+    background: transparent;
+    margin: 0px 0;
+    border: 5px ridge rgb(163, 250, 214) ;
+    padding: 0 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer{
+    background: rgb(75, 59, 168);
+    margin: 0px 0;
+    border: 5px ridge rgb(163, 250, 214) ;
+    padding: 2px;
+    position: relative;
+    bottom: 18px;
+    padding: 0 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  p h1 h2 h3{
+  width: 70%;
+  }
+  header{
+    background: rgb(75, 59, 168);
+  }
